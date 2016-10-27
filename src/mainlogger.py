@@ -1,0 +1,2 @@
+# mainlogger.py
+class MainLogger:
