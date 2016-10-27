@@ -18,4 +18,4 @@ class Handler(ServerInstance):
     	print(identifier, identifierACK)
 
     def handleOption(self, option, value):
-print(option, value)
+        print(option, value)
