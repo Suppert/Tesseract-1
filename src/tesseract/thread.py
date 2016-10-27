@@ -1,2 +1,0 @@
-# thread.py
-class Thread:
