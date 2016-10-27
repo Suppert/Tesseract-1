@@ -6,7 +6,7 @@ import sys
 import os
 import json
 import os.path
-from tesseract.resources import Config
+from resources import Config
 
 # PART OF THIS STARTUP TAKEN FROM THE SPIFFY PROJECT
 if sys.version_info<(3,0,0):
