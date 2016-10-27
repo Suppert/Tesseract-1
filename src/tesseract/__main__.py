@@ -4,9 +4,15 @@ from pyraklib.server import PyRakLibServer
 from pyraklib.server import ServerHandler
 import sys
 import os
+import json
+import os.path
 from tesseract.resources import Config
 
-# STARTUP TAKEN FROM THE SPIFFY PROJECT
+# PART OF THIS STARTUP TAKEN FROM THE SPIFFY PROJECT
+if sys.version_info<(3,0,0):
+  sys.stderr.write("You must use Python <= 3.5")
+  exit(1)
+  
 config = config.handle_config()
 server = PyRakLibServer(config['port'])
 serverInstance = Handler()
