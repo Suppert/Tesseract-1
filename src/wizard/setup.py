@@ -29,13 +29,13 @@ else:
         Server.setPort(port)
         print("Creating directorys...")
         if not os.path.exists('worlds'):
-	        os.makedirs('worlds')
-	    if not os.path.exists('plugins'):
-	        os.makedirs('plugins')
-	    if not os.path.exists('crashes'):
-	        os.makedirs('crashlog')
+	    os.makedirs('worlds')
+	if not os.path.exists('plugins'):
+            os.makedirs('plugins')
+	if not os.path.exists('crashes'):
+	    os.makedirs('crashlog')
         if not os.path.exists('players'):
-	        os.makedirs('players')
+	    os.makedirs('players')
         print 'Setup complete!'
         
                   
