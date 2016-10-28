@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 from tesseract import Startup
 from shutil import copyfile
